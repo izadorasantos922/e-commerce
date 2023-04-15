@@ -172,6 +172,7 @@ main{
  
 
 .imagens-pequenas img{
+    border: 2px solid transparent;
     width: 6em;
     height: 6em;
     margin-top: 15px;
@@ -179,12 +180,12 @@ main{
 }
 
 .imagens-pequenas img:hover{
-    background-color: hsl(220, 14%, 75%);
+    border: 2px solid orangered;
+    opacity: 0.6;
 }
 
 .descricao{
     width: 25rem;
-    /* width: 400px; */
     padding: 3rem;
     margin-left: 2rem;
 }
