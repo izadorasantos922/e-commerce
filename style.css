@@ -142,7 +142,7 @@ main{
 
 
  main .imagem-principal img{
-    width: 25em;
+    width: 26em;
     height: 22em;
     border-radius: 10px;
 }
@@ -159,7 +159,6 @@ main{
 }
 
 .imagens img:hover{
-    /* border: 3px solid orangered; */
     cursor: pointer;
 }
 
@@ -327,5 +326,14 @@ main{
     .btn{
         margin-bottom: 20px;
         width: 70%;
+    }
+}
+
+@media(min-width: 1440px){
+    body{
+        margin-top: -10rem;
+    }
+    .icones #cart-count{
+        right: 18%;
     }
 }
